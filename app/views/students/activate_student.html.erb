@@ -1,0 +1,7 @@
+<%=form_for @student do |student|%>
+<%=student.label :active%>
+<%= student.radio_button :active, true %>
+<%=student.label :inactive%>
+<%= student.radio_button :active, false  %>
+<%= student.submit :Submit %>
+<%end%>
